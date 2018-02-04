@@ -16,6 +16,7 @@ class RemovalNotes(object):
     def action(self, elem, doc):
         if isinstance(elem, pf.Div) and "rmnote" in elem.classes:
             if doc.get_metadata("rmnote", False):
+                pf.debug("remove <div class=\"rmnote\"> ~ </div>")
                 ret = []
             else:
                 ret = elem

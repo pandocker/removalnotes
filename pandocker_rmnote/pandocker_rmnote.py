@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-""" wavedrom-inline
+""" pandocker-rmnote
 A pandoc filter which removes div block in "rmnote" class
 
 applies MIT License (c) 2018 pandocker/Kazuki Yamamoto(k.yamamoto.08136891@gmail.com)
